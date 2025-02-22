@@ -5,8 +5,8 @@ import MovieCard from "./components/MovieCard";
 import { API_BASE_URL, API_KEY, API_OPTIONS } from "./config";
 import { useDebounce } from "react-use";
 import { updateSearchCount, getTrendingMovies } from "./appwrite";
-import NavBar from "./components/navbar";
 import Footer from "./components/Footer";
+import NavBar from "./components/navbar";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
