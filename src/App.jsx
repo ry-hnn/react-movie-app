@@ -6,7 +6,7 @@ import { API_BASE_URL, API_KEY, API_OPTIONS } from "./config";
 import { useDebounce } from "react-use";
 import { updateSearchCount, getTrendingMovies } from "./appwrite";
 import Footer from "./components/Footer";
-import NavBar from "./components/navbar";
+import NavBar from "./components/NavBar";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
